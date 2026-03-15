@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>后台管理</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="dashboard-container">
+    <!-- 应用入口 -->
+    <div class="card">
+      <div class="card-header">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDNWNVY3VjMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTMgMTBIMTciIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTUgMTVIMTVWMTdINVYxTVoiIGZpbGw9IiMzMzMiLz4KPC9zdmc+"
+          alt="应用入口">
+        <strong>应用入口</strong>
+      </div>
+      <div class="app-entry">
+        <div class="app-item">
+          <div class="app-icon hr">👤</div>
+          <div class="app-name">HR系统</div>
+        </div>
+        <div class="app-item">
+          <div class="app-icon asset">🗃️</div>
+          <div class="app-name">资产管理系统</div>
+        </div>
+        <div class="app-item">
+          <div class="app-icon contract">📄</div>
+          <div class="app-name">合同管理</div>
+        </div>
+        <div class="app-item">
+          <div class="app-icon customer">👥</div>
+          <div class="app-name">客户管理</div>
+        </div>
+        <div class="app-item">
+          <div class="app-icon supplier">🪪</div>
+          <div class="app-name">供应商管理</div>
+        </div>
+        <div class="app-item">
+          <div class="app-icon more">⋯</div>
+          <div class="app-name"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 待办事项 -->
+    <div class="card">
+      <div class="card-header">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgNEgyMEwxOCAxN0g1TDMgNFoiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTggMTFIMTMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+"
+          alt="待办事项">
+        <strong>待办事项</strong>
+      </div>
+      <div class="todo-grid">
+        <div class="todo-item gray">
+          <div class="todo-number">6</div>
+          <div class="todo-text">待审批收入合同</div>
+        </div>
+        <div class="todo-item orange">
+          <div class="todo-number">8</div>
+          <div class="todo-text">待审批支出合同</div>
+        </div>
+        <div class="todo-item blue">
+          <div class="todo-number">2</div>
+          <div class="todo-text">待审批经营性合同</div>
+        </div>
+        <div class="todo-item darkblue">
+          <div class="todo-number">5</div>
+          <div class="todo-text">今日提醒</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 通知公告 -->
+    <div class="card">
+      <div class="card-header">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgM0gyMEwxOCAxN0g1TDMgM1oiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTggMTFIMTMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+"
+          alt="通知公告">
+        <strong>通知公告</strong>
+      </div>
+      <div class="notice-list">
+        <div class="notice-item">
+          <div class="notice-title">【2024元旦放假通知】</div>
+          <div class="notice-date">2023-12-25</div>
+        </div>
+        <div class="notice-item">
+          <div class="notice-title">【生日祝福：唐翌宁今天过生日哦！】</div>
+          <div class="notice-date">2024-01-22</div>
+        </div>
+        <div class="notice-item">
+          <div class="notice-title">【关于2023年度优秀评选活动的通知】</div>
+          <div class="notice-date">2024-01-15</div>
+        </div>
+        <div class="notice-item">
+          <div class="notice-title">【关于恒联18楼前台共享空间区域改造施工的通知】</div>
+          <div class="notice-date">2023-01-03</div>
+        </div>
+        <div class="notice-item">
+          <div class="notice-title">【请员工填写《2024年资本运营党委委派干部逆向评价和党组织作用评价...</div>
+          <div class="notice-date">2024-02-04</div>
+        </div>
+        <div class="notice-item">
+          <div class="notice-title">【公司信息化MIS系统更新】</div>
+          <div class="notice-date">2023-11-22</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 工作提醒 -->
+    <div class="card">
+      <div class="card-header">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwIDNWNVY3VjMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTMgMTBIMTciIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTUgMTVIMTVWMTdINVYxTVoiIGZpbGw9IiMzMzMiLz4KPC9zdmc+"
+          alt="工作提醒">
+        <strong>工作提醒</strong>
+      </div>
+      <div class="remind-list">
+        <div class="remind-item">
+          <div class="remind-tag contract">合同发起</div>
+          <div class="remind-content">
+            <div class="remind-project">项目【多云接入与与多云平台合作备忘录】已发起...</div>
+            <div class="remind-meta">
+              <span>2023.10.16 14:38:10</span>
+              <span>发起人：我</span>
+            </div>
+          </div>
+        </div>
+        <div class="remind-item">
+          <div class="remind-tag expire">合同到期</div>
+          <div class="remind-content">
+            <div class="remind-project">项目【漕河泾开发区赵巷园区MSTP接入服务合...</div>
+            <div class="remind-meta">
+              <span>2023.10.16 14:20:19</span>
+              <span>发送人：系统</span>
+            </div>
+          </div>
+        </div>
+        <div class="remind-item">
+          <div class="remind-tag approve">审批提醒</div>
+          <div class="remind-content">
+            <div class="remind-project">项目【3M浦江工厂NAC项目布线工程】<strong>【支出】</strong>...</div>
+            <div class="remind-meta">
+              <span>2023.10.15 09:13:40</span>
+              <span>发送人：张三</span>
+            </div>
+          </div>
+        </div>
+        <div class="remind-item">
+          <div class="remind-tag approve">审批提醒</div>
+          <div class="remind-content">
+            <div class="remind-project"><strong>【收入】</strong>合同待作废！<strong>【收入】</strong>合同号：<strong>HL-TE</strong>...
+            </div>
+            <div class="remind-meta">
+              <span>2023.10.15 09:13:40</span>
+              <span>发送人：人事部主管</span>
+            </div>
+          </div>
+        </div>
+        <div class="remind-item">
+          <div class="remind-tag issue">问题提醒</div>
+          <div class="remind-content">
+            <div class="remind-project">项目【岚图汽车销售服务有限公司上海分公司】...</div>
+            <div class="remind-meta">
+              <span>2023.10.10 20:56:06</span>
+              <span>发送人：法务</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 我的审批 -->
+    <div class="card card-full">
+      <div class="card-header">
+        <img
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMgNEgyMEwxOCAxN0g1TDMgNFoiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPHBhdGggZD0iTTggMTFIMTMiIHN0cm9rZT0iIzMzMyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+"
+          alt="我的审批">
+        <strong>我的审批</strong>
+      </div>
+      <div class="approval-content">
+        <div class="chart-bar">
+          <div class="approval-header">近7日审批合同数量累计</div>
+          <div style="position: relative;">
+            <div class="y-axis">
+              <p>份</p>
+              <div>14</div>
+              <div>12</div>
+              <div>10</div>
+              <div>8</div>
+              <div>6</div>
+              <div>4</div>
+              <div>2</div>
+              <div>0</div>
+            </div>
+            <div class="bar-chart">
+              <div class="bar" style="height: 20%"></div>
+              <div class="bar" style="height: 20%"></div>
+              <div class="bar" style="height: 50%"></div>
+              <div class="bar" style="height: 50%"></div>
+              <div class="bar" style="height: 70%"></div>
+              <div class="bar" style="height: 70%"></div>
+              <div class="bar" style="height: 80%"></div>
+              <div class="bar" style="height: 80%"></div>
+              <div class="bar" style="height: 85%"></div>
+              <div class="bar" style="height: 85%"></div>
+            </div>
+
+            <div class="bar-labels">
+              <span>01-05</span>
+              <span>01-08</span>
+              <span>01-11</span>
+              <span>01-14</span>
+              <span>01-17</span>
+              <span>01-20</span>
+              <span>01-23</span>
+              <span>01-26</span>
+              <span>01-29</span>
+              <span>02-02</span>
+            </div>
+          </div>
+        </div>
+        <div class="chart-pie">
+          <div class="pie-title">近7日审批情况</div>
+          <div class="pie-chart">
+            <div class="pie-center">
+              <div>审批总数</div>
+              <div class="num">44</div>
+            </div>
+          </div>
+          <div class="pie-legend">
+            <div class="legend-item">
+              <div class="legend-dot red"></div>
+              <span>未审批</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot cyan"></div>
+              <span>已审批</span>
+            </div>
+          </div>
+        </div>
+        <div class="chart-pie">
+          <div class="pie-title">近7日审批情况</div>
+          <div class="pie-chart type2">
+            <div class="pie-center">
+              <div>审批总数</div>
+              <div class="num">44</div>
+            </div>
+          </div>
+          <div class="pie-legend">
+            <div class="legend-item">
+              <div class="legend-dot orange"></div>
+              <span>收入合同</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot blue"></div>
+              <span>支出合同</span>
+            </div>
+            <div class="legend-item">
+              <div class="legend-dot cyan"></div>
+              <span>经营性合同</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
